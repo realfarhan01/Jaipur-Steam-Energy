@@ -3538,7 +3538,7 @@ ul.list-unstyled span {
   margin-bottom: 30px;
   -webkit-box-shadow: 0px 5px 27.2px 0px rgba(39, 39, 39, 0.12);
           box-shadow: 0px 5px 27.2px 0px rgba(39, 39, 39, 0.12);
-  padding: 22px 30px;
+  padding: 5px;
   border: 1px solid transparent;
   border-right: 8px solid var(--bs-primary-color);
   -webkit-transition: var(--bs-transition);
@@ -3559,7 +3559,7 @@ ul.list-unstyled span {
   transition: var(--bs-transition);
 }
 .ep-why-choose-us-section-two .content .content-item .title {
-  margin-bottom: 10px;
+  /*margin-bottom: 10px;*/
 }
 .ep-why-choose-us-section-two .content .content-item:hover {
   border-color: var(--bs-primary-color);

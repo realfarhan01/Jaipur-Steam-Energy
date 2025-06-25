@@ -134,7 +134,7 @@
 
   // Service slider js
   var swiper = new Swiper(".service-slider", {
-    slidesPerView: 3,
+    slidesPerView: 2,
     spaceBetween: 24,
     speed: 1200,
     loop: true,
@@ -144,10 +144,10 @@
     },
     breakpoints: {
       1200: {
-        slidesPerView: 3,
+        slidesPerView: 4,
       },
       992: {
-        slidesPerView: 2,
+        slidesPerView: 3,
       },
       768: {
         slidesPerView: 2,
