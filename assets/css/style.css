@@ -1345,12 +1345,12 @@ p {
   color: var(--bs-primary-color);
 }
 .ep-header-section .navbar .navbar-nav .nav-item .sub-menu {
-  width: 226px;
+  width: 950px;
   background-color: var(--bs-white-color);
   position: absolute;
   top: 100%;
   margin-top: 10px;
-  left: 0;
+  left: -305px;
   z-index: 999;
   visibility: hidden;
   opacity: 0;
@@ -1358,6 +1358,9 @@ p {
   transition: var(--bs-transition);
   -webkit-box-shadow: 0px 10px 30px 0px rgba(137, 139, 142, 0.2);
           box-shadow: 0px 10px 30px 0px rgba(137, 139, 142, 0.2);
+}
+ul.list-unstyled span {
+    font-size: 12px;
 }
 .ep-header-section .navbar .navbar-nav .nav-item .sub-menu li a {
   color: var(--bs-black-color);
@@ -4011,9 +4014,9 @@ p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
+  /*-webkit-box-align: center;
       -ms-flex-align: center;
-          align-items: center;
+          align-items: center;*/
   gap: 10px;
 }
 .ep-footer-section .footer-main .footer-widget .contact-info li .icon i {
@@ -4029,7 +4032,7 @@ p {
   color: var(--bs-white-color);
 }
 .ep-footer-section .footer-main .footer-widget .contact-info li + li {
-  margin-top: 20px;
+  margin-top: 10px;
 }
 .ep-footer-section .footer-bottom {
   background-color: var(--bs-black-color3);
