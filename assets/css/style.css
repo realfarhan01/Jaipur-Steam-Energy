@@ -3328,7 +3328,7 @@ ul.list-unstyled span {
   }
 }
 .ep-counter-section .counter-body .counter-item {
-  max-width: 190px;
+  /*max-width: 190px;*/
 }
 @media (max-width: 575.98px) {
   .ep-counter-section .counter-body .counter-item {
@@ -3958,7 +3958,7 @@ ul.list-unstyled span {
 ===============================*/
 .ep-footer-section {
   background-color: var(--bs-black-color2);
-  padding-top: 80px;
+  padding-top: 20px;
 }
 .ep-footer-section .footer-top {
   padding-bottom: 80px;
