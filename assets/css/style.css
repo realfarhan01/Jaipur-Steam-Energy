@@ -1291,7 +1291,11 @@ p {
   }
 }
 .ep-header-section .navbar .navbar-brand .shape {
-  color: #dbdbdb;
+  color: #fff;
+}
+nav.navbar.p-0.navbar-expand-xl.d-none.d-xl-flex {
+    background: #dbdbdb;
+    height: 88px;
 }
 @media (max-width: 1799.98px) {
   .ep-header-section .navbar .navbar-brand .shape {
@@ -1322,7 +1326,7 @@ p {
 }
 @media (max-width: 1399.98px) {
   .ep-header-section .navbar .navbar-nav {
-    padding-left: 285px;
+    padding-left: 250px;
   }
 }
 .ep-header-section .navbar .navbar-nav .nav-item {
@@ -1333,7 +1337,7 @@ p {
   color: var(--bs-black-color);
   font-size: 15px;
   font-weight: 500;
-  line-height: 78px;
+  /*line-height: 70px;*/
   text-transform: uppercase;
 }
 .ep-header-section .navbar .navbar-nav .nav-item .nav-link i {
@@ -1343,6 +1347,9 @@ p {
 }
 .ep-header-section .navbar .navbar-nav .nav-item .active {
   color: var(--bs-primary-color);
+}
+.ep-header-section .navbar .navbar-nav .nav-item:hover {
+    border-bottom: 1px solid var(--bs-primary-color);
 }
 .ep-header-section .navbar .navbar-nav .nav-item .sub-menu {
   width: 290px;
@@ -1604,7 +1611,7 @@ ul.list-unstyled span {
 .mobile-menu-area .mobile-topbar {
   width: 100%;
   background-color: var(--bs-white-color);
-  padding: 18px 0;
+  padding: 5px 0;
 }
 .mobile-menu-area .mobile-topbar .logo {
   position: relative;
@@ -5347,9 +5354,10 @@ ul.list-unstyled span {
 ===============================*/
 .ep-contact-section .contact-info .info-item {
   border: 1px solid var(--bs-border);
-  padding: 30px 47px 30px 30px;
+   padding: 20px;
   -webkit-transition: var(--bs-transition);
   transition: var(--bs-transition);
+  height: calc(100% - 30px);
 }
 .ep-contact-section .contact-info .info-item .text p a {
   color: var(--bs-paragraph-color);
@@ -5412,4 +5420,39 @@ ul.list-unstyled span {
 }
 .logo.pb-4 img {
     width: 200px;
+}
+.col.technologyBox {
+    margin-top: 20px;
+    text-align: center;
+}
+.technologyBoxIn {
+    background: #fff;
+    margin-left: -10px;
+    margin-right: -10px;
+    box-shadow: 1px 2px 3px 0 rgb(0 0 0 / .12);
+    transition: ease all .3s;
+    padding: 25px 15px;
+}
+.technologyBoxIn {
+    box-shadow: 0 6px 8px 0 rgb(0 0 0 / .21) !important;
+}
+.roundimage {
+    background: green;
+    border-radius: 50%;
+    height: 85px;
+    width: 85px;
+    margin: auto;
+    border-radius: 50%;
+    padding: 15px;
+    margin-bottom: 16px;
+}
+.technologyBox h4 {
+    font-size: 15px;
+    color: green;
+    min-height: 36px;
+}
+.technologyBox img {
+    background: green;
+    padding: 0;
+    width: 100%;
 }
