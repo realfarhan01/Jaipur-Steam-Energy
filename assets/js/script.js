@@ -621,3 +621,16 @@
     $(this).find("i").toggleClass("fa-chevron-up fa-chevron-down");
   });
 })(jQuery);
+document.addEventListener('DOMContentLoaded', function() {
+    var toggles = document.querySelectorAll('.position-relative > a');
+
+    toggles.forEach(function(toggle) {
+        toggle.addEventListener('click', function(e) {
+            if (window.innerWidth <= 991) {
+                e.preventDefault();
+                var parent = this.parentElement;
+                parent.classList.toggle('open');
+            }
+        });
+    });
+});
