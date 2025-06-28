@@ -4509,7 +4509,7 @@ ul.list-unstyled span {
   -webkit-transition: var(--bs-transition);
   transition: var(--bs-transition);
   background: var(--bs-bg-color2);
-  padding: 70px 40px 40px;
+  padding: 45px;
   border: 1px solid transparent;
   height: 100%;
 }
