@@ -2933,7 +2933,7 @@ ul.list-unstyled span {
 ===============================*/
 /* Testimonial one */
 .ep-testimonial-section {
-  background-color: var(--bs-black-color);
+  background: #f6f6f6 url("../img/worldmap.svg") no-repeat center center;
 }
 .ep-testimonial-section .left-image {
   padding-right: 56px;
@@ -2970,8 +2970,13 @@ ul.list-unstyled span {
 }
 @media (max-width: 1399.98px) {
   .ep-testimonial-section .testimonial-content {
-    max-width: 543px;
+    max-width: 100%;
   }
+}
+.testimonial {
+    background: #001f3f;
+    padding: 20px;
+    border-radius: 15px;
 }
 @media (max-width: 1199.98px) {
   .ep-testimonial-section .testimonial-content {
