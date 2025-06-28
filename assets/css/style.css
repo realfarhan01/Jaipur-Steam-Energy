@@ -2968,6 +2968,11 @@ ul.list-unstyled span {
   max-width: 630px;
   width: 100%;
 }
+.row.client-row .col-md-3 img {
+    border: 2px solid #e10006;
+    margin-bottom: 15px;
+    border-radius: 20px;
+}
 @media (max-width: 1399.98px) {
   .ep-testimonial-section .testimonial-content {
     max-width: 100%;
