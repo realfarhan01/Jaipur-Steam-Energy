@@ -9,7 +9,7 @@
 :root {
   --bs-font-roboto: "Roboto", sans-serif;
   --bs-font-inter: "Inter", sans-serif;
-  --bs-primary-color: #E10006;
+  --bs-primary-color:green;
   --bs-black-color: #001F3F;
   --bs-black-color2: #06182B;
   --bs-black-color3: #000E1D;
@@ -17,9 +17,9 @@
   --bs-paragraph-color: #788094;
   --bs-bg-color1: #ECF0F1;
   --bs-bg-color2: #F4F4F4;
-  --bs-bg-color3: #FBD9DA;
+  --bs-bg-color3: #deffde;
   --bs-color1: #B0B2B8;
-  --bs-color2: #FFE0E0;
+  --bs-color2: #e4ffe4;
   --bs-color3: #F7F7F7;
   --bs-color4: #FEBE42;
   --bs-border: #D8DDE1;
@@ -1155,6 +1155,7 @@ p {
 }
 .nice-select span {
   line-height: 58px;
+  color: rgb(255 255 255 / 38%);
 }
 
 .nice-select .option:hover,
@@ -1294,7 +1295,7 @@ p {
   color: #fff;
 }
 nav.navbar.p-0.navbar-expand-xl.d-none.d-xl-flex {
-    background: #dbdbdb;
+    background: #d4dfe4;
     height: 88px;
 }
 @media (max-width: 1799.98px) {
@@ -2244,8 +2245,8 @@ ul.list-unstyled span {
   transition: var(--bs-transition);
 }
 .ep-service-section .service-item .text {
-  padding: 40px;
-  padding-top: 32px;
+  padding: 20px;
+  padding-top: 15px;
 }
 @media (max-width: 1199.98px) {
   .ep-service-section .service-item .text {
@@ -2674,7 +2675,7 @@ ul.list-unstyled span {
 }
 .ep-team-section .team-item .image img {
   padding: 6px;
-  background-color: #e58083;
+  background-color: #00800057;
   -webkit-transition: var(--bs-transition);
   transition: var(--bs-transition);
 }
@@ -2969,7 +2970,7 @@ ul.list-unstyled span {
   width: 100%;
 }
 .row.client-row .col-md-3 img {
-    border: 2px solid #e10006;
+    border: 2px solid #008000;
     margin-bottom: 15px;
     border-radius: 20px;
 }
@@ -3896,7 +3897,7 @@ ul.list-unstyled span {
   font-size: 12px;
 }
 .ep-blog-section .blog-item .blog-text {
-  padding: 40px;
+  padding: 20px;
 }
 @media (max-width: 1199.98px) {
   .ep-blog-section .blog-item .blog-text {
@@ -4677,7 +4678,7 @@ ul.list-unstyled span {
   background: var(--bs-bg-color2);
   padding: 60px;
   border-radius: 60px;
-  gap: 60px;
+  gap: 15px;
 }
 @media (max-width: 1199.98px) {
   .ep-team-details-section .single-team-info {
