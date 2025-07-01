@@ -1603,7 +1603,7 @@ ul.list-unstyled span {
 /* Mobile menu area start */
 .mobile-menu-area {
   z-index: 999;
-  background-color: var(--bs-white-color);
+  background-color: #d4dfe4;
   width: 100%;
   -webkit-transition: var(--bs-transition);
   transition: var(--bs-transition);
@@ -1611,7 +1611,7 @@ ul.list-unstyled span {
 }
 .mobile-menu-area .mobile-topbar {
   width: 100%;
-  background-color: var(--bs-white-color);
+  background-color: #d4dfe4;
   padding: 5px 0;
 }
 .mobile-menu-area .mobile-topbar .logo {
@@ -1631,7 +1631,7 @@ ul.list-unstyled span {
   z-index: -9;
 }
 .mobile-menu-area .mobile-topbar .shape {
-  color: #dbdbdb;
+  color: #FFF;
   position: absolute;
   top: -26px;
   left: -29px;
@@ -1691,7 +1691,7 @@ ul.list-unstyled span {
 .mobile-menu-area .mobile-menu-main {
   width: 320px;
   height: 100%;
-  background-color: var(--bs-white-color);
+  background-color:#d4dfe4;
   position: fixed;
   top: 0;
   left: -320px;
@@ -1708,7 +1708,7 @@ ul.list-unstyled span {
   padding: 7px;
 }
 .mobile-menu-area .mobile-menu-main .shape {
-  color: #dbdbdb;
+  color: #fff;
   position: absolute;
   top: -30px;
   left: -29px;
@@ -1975,7 +1975,7 @@ ul.list-unstyled span {
 }
 @media (max-width: 1399.98px) {
   .ep-banner-section .overlay .banner-bg-shape .image {
-    max-width: 450px;
+    max-width: 500px;
   }
 }
 @media (max-width: 991.98px) {
@@ -2671,7 +2671,7 @@ ul.list-unstyled span {
 	18. Team CSS Start
 ===============================*/
 .ep-team-section .team-item .image {
-  padding-right: 28px;
+  /*padding-right: 28px;*/
 }
 .ep-team-section .team-item .image img {
   padding: 6px;
@@ -5033,7 +5033,7 @@ ul.list-unstyled span {
 }
 .blog-sidebar .sidebar-widget {
   margin-bottom: 30px;
-  padding: 40px;
+  padding: 20px;
   background: var(--bs-bg-color2);
 }
 @media (max-width: 575.98px) {
@@ -5077,7 +5077,7 @@ ul.list-unstyled span {
   margin-bottom: 0;
 }
 .blog-sidebar .sidebar-widget .category li a {
-  padding: 15px 20px;
+  padding: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
