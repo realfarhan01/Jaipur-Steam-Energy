@@ -4539,14 +4539,14 @@ ul.list-unstyled span {
 }
 @media (max-width: 1399.98px) {
   .service-sidebar .sidebar-widget {
-    padding: 30px;
+    padding: 20px;
   }
 }
 .service-sidebar .sidebar-widget:last-child {
   margin-bottom: 0;
 }
 .service-sidebar .sidebar-widget.services ul li {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 .service-sidebar .sidebar-widget.services ul li:last-child {
   margin-bottom: 0;
@@ -4556,7 +4556,7 @@ ul.list-unstyled span {
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
-  padding: 14px 30px;
+  padding: 10px;
   border-radius: 50px;
   border: 1px solid var(--bs-border);
   background: var(--bs-white-color);
