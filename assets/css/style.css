@@ -1417,7 +1417,7 @@ ul.list-unstyled span {
 .ep-header-section .navbar .navbar-nav .nav-item:hover > .sub-menu {
   visibility: visible;
   opacity: 1;
-  margin-top: 10px;
+  margin-top: 5px;
 }
 .ep-header-section .navbar .header-action ul {
   padding-right: 40px;
@@ -5541,7 +5541,7 @@ ul.list-unstyled span {
 .category-block h6 {
   font-size: 14px;
   font-weight: 600;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 
 .category-block a {
