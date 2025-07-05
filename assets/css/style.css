@@ -4702,7 +4702,7 @@ ul.list-unstyled span {
 }
 .ep-team-details-section .single-team-info .text hr {
   border-color: 1px solid var(--bs-border-color);
-  margin: 35px 0;
+  margin: 20px 0;
 }
 .ep-team-details-section .single-team-info .text .personal-info li {
   color: var(--bs-paragraph-color);
