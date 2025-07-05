@@ -1353,12 +1353,13 @@ nav.navbar.p-0.navbar-expand-xl.d-none.d-xl-flex {
     border-bottom: 1px solid var(--bs-primary-color);
 }
 .ep-header-section .navbar .navbar-nav .nav-item .sub-menu {
-  width: 290px;
-  background-color: var(--bs-white-color);
+  border-radius: 20px;
+  /*width: 290px;*/
+  background-color: #d4dfe4;
   position: absolute;
   top: 100%;
   margin-top: 10px;
-  left: 0px;
+  left: -475px;
   z-index: 999;
   visibility: hidden;
   opacity: 0;
@@ -1416,7 +1417,7 @@ ul.list-unstyled span {
 .ep-header-section .navbar .navbar-nav .nav-item:hover > .sub-menu {
   visibility: visible;
   opacity: 1;
-  margin-top: 0px;
+  margin-top: 10px;
 }
 .ep-header-section .navbar .header-action ul {
   padding-right: 40px;
@@ -5466,4 +5467,87 @@ ul.list-unstyled span {
     background: green;
     padding: 0;
     width: 100%;
+}
+.single-row-megamenu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  transform: translateX(0); /* ensures starts from very left */
+  padding: 20px;
+  display: none;
+  background: #fff;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  z-index: 999;
+  justify-content: flex-start; /* aligns items to the left */
+  gap: 15px;
+  flex-wrap: nowrap;
+  white-space: nowrap;
+}
+.single-row-megamenu .container {
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.nav-item:hover .single-row-megamenu {
+  display: flex;
+}
+
+.category-block {
+  display: flex;
+  flex-direction: column;
+  min-width: 120px;
+}
+
+.category-block h6 {
+  font-weight: 600;
+  font-size: 15px;
+  margin-bottom: 8px;
+  color: #000;
+}
+
+.category-block a {
+  font-size: 14px;
+  color: #333;
+  text-decoration: none;
+  padding: 2px 0;
+  transition: 0.3s;
+}
+
+.category-block a:hover {
+  color: #008007;
+}
+@media (max-width: 768px) {
+  .single-row-megamenu {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .category-block {
+    min-width: auto;
+  }
+}
+/* Initially hide submenu */
+.product-submenu.hidden {
+  display: none;
+}
+
+/* Optional: styling submenu */
+.product-submenu {
+  padding: 15px;
+  background: #f8f8f8;
+}
+
+.category-block h6 {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.category-block a {
+  display: block;
+  font-size: 14px;
+  color: #131f3f;
+  text-decoration: none;
+  margin-bottom: 3px;
 }

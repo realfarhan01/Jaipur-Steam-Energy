@@ -634,3 +634,12 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
+
+document.addEventListener('DOMContentLoaded', function () {
+  const productToggle = document.querySelector('.toggle-products');
+  const productSubmenu = document.querySelector('.product-submenu');
+
+  productToggle.addEventListener('click', function () {
+    productSubmenu.classList.toggle('hidden');
+  });
+});
