@@ -5551,3 +5551,6 @@ ul.list-unstyled span {
   text-decoration: none;
   margin-bottom: 3px;
 }
+.service-two-item.hover-effect.bg-white.rounded-20.overflow-hidden img {
+    height: 230px;
+}
